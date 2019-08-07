@@ -20,6 +20,12 @@
       <version>3.1.0</version>
     </dependency>
   </dependencies>
+         <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://54.242.11.49:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
   <build>
     <plugins>
       <plugin>
